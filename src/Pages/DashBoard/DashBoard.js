@@ -24,12 +24,13 @@ import {
     Link,
     NavLink
 } from "react-router-dom";
-import { Button } from '@mui/material';
+import { Button, Grid } from '@mui/material';
 import DashBoardHome from './DashBoardHome';
 import UseAuth from '../../Hooks/UseAuth';
+import UserForm from '../Services/Testimonial/UserForm';
 
 
-const drawerWidth = 240;
+const drawerWidth = 200;
 
 function DashBoard(props) {
     const { window } = props;
@@ -41,7 +42,7 @@ function DashBoard(props) {
     };
 
     const drawer = (
-        <div>
+        <div >
            
            <Toolbar />
             <Divider style={{paddingBottom:'12px'}}/>
@@ -54,7 +55,7 @@ function DashBoard(props) {
               
                 <Divider/>
                 <br />
-            <Link to={`/dashboard/manageOrder`} style={{textDecoration:'none', color:'black'}}> <AddShoppingCartOutlinedIcon/><Button
+                {admin && <Box> <Link to={`/dashboard/manageOrder`} style={{textDecoration:'none', color:'black'}}> <AddShoppingCartOutlinedIcon/><Button
                 color="inherit">Manage Order</Button></Link>
                  <Divider />
                 <br />
@@ -62,15 +63,13 @@ function DashBoard(props) {
                 color="inherit">Add Service</Button></Link>
                  <Divider />
             <br />
-    
-             {admin && <Box>
                 <Link to={`/dashboard/makeAdmin`} style={{textDecoration:'none' , color:'black'}}><AdminPanelSettingsIcon/><Button color="inherit">Make Admin</Button></Link>
                 <Divider />
                 <br />
                 <Link to={`/dashboard/addAdmin`} style={{textDecoration:'none' , color:'black'}}><Button color="inherit">Add Admin</Button></Link>
                 <Divider />
-                  
                   </Box>}
+                  
            </Box>
        
             {/* <List>
@@ -100,7 +99,7 @@ function DashBoard(props) {
     const container = window !== undefined ? () => window().document.body : undefined;
 
     return (
-        <Box sx={{ display: 'flex'  }}>
+        <Box sx={{ display: 'flex'  }} >
             <CssBaseline />
             {/* <AppBar
                 position="fixed"
@@ -126,7 +125,7 @@ function DashBoard(props) {
                 </Toolbar>
             </AppBar> */}
             <Box
-                component="nav"
+                component="nav" 
                 sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
                 aria-label="mailbox folders"
             >
@@ -164,6 +163,19 @@ function DashBoard(props) {
                 <Toolbar />
 
 
+
+                {/* <Grid container spacing={2}>
+  <Grid item xs={12} sm={5}>
+  <UserForm></UserForm>
+  </Grid>
+  <Grid item xs={12} sm={7}>
+   <DashBoardHome></DashBoardHome>
+  </Grid>
+
+</Grid> */}
+
+
+
                 <Outlet></Outlet>
 
             </Box>
@@ -177,6 +189,7 @@ DashBoard.propTypes = {
      * You won't need it on your project.
      */
     window: PropTypes.func,
+    
 };
 
 export default DashBoard;

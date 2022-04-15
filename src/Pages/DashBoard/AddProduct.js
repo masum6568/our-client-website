@@ -10,7 +10,7 @@ const AddProduct = () => {
     const onSubmit = data => {
         console.log(data);
 
-        axios.post("", data)
+        axios.post("http://localhost:7000/addProducts", data)
             .then(res => {
 
                 if (res.data.insertedId) {

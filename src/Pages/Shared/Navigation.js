@@ -14,6 +14,7 @@ import MenuItem from '@mui/material/MenuItem';
 import { useNavigate } from 'react-router';
 import { NavLink } from 'react-router-dom';
 import UseAuth from '../../Hooks/UseAuth';
+import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 
 
 
@@ -24,6 +25,7 @@ const pages = ['Home', 'Services', 'About'];
 
 const Navigation = () => {
     // const { user, logout } = useAuth()
+   
     const { user, logout } = UseAuth()
     let navigate = useNavigate();
 
@@ -37,6 +39,7 @@ const Navigation = () => {
     const handleCloseNavMenu = () => {
         setAnchorElNav(null);
     };
+
 
 
     const handleNavClicked = (page) => {
@@ -72,7 +75,7 @@ const Navigation = () => {
                             sx={{ mr: 2, fontSize: "1.5rem", display: { xs: 'none', md: 'flex' } }}
 
                         >
-                            <img width={100} src="" alt="" />
+                            <img width={100} src="https://d1yei2z3i6k35z.cloudfront.net/1733607/620e3a5d78eeb_Risorsa8.png" alt="" />
                         </Typography>
 
                         <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -165,6 +168,8 @@ const Navigation = () => {
                                     to="/login" ><Button color="inherit"  >Login</Button></NavLink>
                             }
                         </Box>
+                        
+           <AddShoppingCartIcon></AddShoppingCartIcon>
                     </Toolbar>
                 </Container>
             </AppBar>

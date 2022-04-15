@@ -1,29 +1,21 @@
 import React, { } from 'react';
 
 import Card from '@mui/material/Card';
-import CardHeader from '@mui/material/CardHeader';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
-
-
-import Avatar from '@mui/material/Avatar';
-
 import Typography from '@mui/material/Typography';
 
-
-
-
-
-// import './ServicesCard.css'
 import { Button, Grid, Rating, Stack } from '@mui/material';
 import { Link } from 'react-router-dom';
 
 
-const ServicesCard = ({ article }) => {
-    const { _id, name, about, picture, price, rating } = article
+
+const ServiceCard = ({ article }) => {
+    const { _id, name, picture, price, rating } = article
     // console.log(props.article);
     return (
-        <>
+ 
+            <div>
             <Grid >
                 <Card sx={{ maxWidth: 345 }}  >
                     {/* <CardHeader style={{ backgroundColor: '#bdbdbd' }}
@@ -50,7 +42,7 @@ const ServicesCard = ({ article }) => {
                         </Typography>
                         <Typography
                             variant="body2" color="text.secondary">
-                            Description : {about}
+                            {/* Description : {about} */}
                         </Typography>
                         <Typography
                             variant="body2" color="text.secondary"
@@ -58,8 +50,8 @@ const ServicesCard = ({ article }) => {
                         >
                             Price : {price}
                         </Typography>
-                        <Stack spacing={1} style={{ marginLeft: '95px' }}>
-                            <Rating name="half-rating" defaultValue={rating} precision={0.5} readOnly />
+                        <Stack spacing={1}  style={{ marginLeft: '95px' }}>
+                            <Rating sx={{color:'blue'}} name="half-rating"  defaultValue={rating} precision={0.5} readOnly />
 
                         </Stack>
                     </CardContent>
@@ -68,18 +60,18 @@ const ServicesCard = ({ article }) => {
                         <Link
                             style={{ textDecoration: 'none', display: "block", paddingBottom: "40px" }}
                             to={`/details/${_id}`}>
-                            <Button variant="contained">Order Now</Button>
+                            <Button variant="contained">See Details</Button>
                         </Link>
                     </Stack>
                 </Card>
             </Grid>
+            
+        </div>
 
-        </>
 
     )
 
 };
 
-export default ServicesCard;
+export default ServiceCard;
 
-/*https://www.kreedon.com/wp-content/uploads/2022/03/thumb-1920-549198-2.jpg  */

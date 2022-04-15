@@ -14,8 +14,10 @@ import AdminRoute from './Pages/Login/AdminRoute/AdminRoute';
 import Login from './Pages/Login/Login/Login';
 import PrivateRoute from './Pages/Login/Login/PrivateRoute';
 import Register from './Pages/Login/Login/Register';
+import BookingService from './Pages/Services/BookingService';
 import Services from './Pages/Services/Services';
 import SingleService from './Pages/Services/SingleService';
+import Footer from './Pages/Shared/Footer';
 import Navigation from './Pages/Shared/Navigation';
 
 
@@ -50,6 +52,7 @@ function App() {
 {/* <Route path={"/dashboard/manageOrder"} element={<PrivateRoute><ManageOrder /></PrivateRoute>}> </Route> */}
 {/* <Route path={"/dashboard/makeAdmin"} element={<PrivateRoute><MakeAdmin /></PrivateRoute>}></Route> */}
 
+
 </Route>
 
 
@@ -60,8 +63,11 @@ function App() {
 
             <Route path="/login" element={<Login />}>
             </Route>
+           
 
             <Route path="/details/:_id" element={<SingleService />}>
+            </Route>
+            <Route path="/order" element={<BookingService />}>
             </Route>
    
 
@@ -73,6 +79,7 @@ function App() {
             </Route>
 
           </Routes>
+       
         </AuthProvider>
       </BrowserRouter>
 

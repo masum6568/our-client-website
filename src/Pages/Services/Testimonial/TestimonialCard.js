@@ -14,13 +14,13 @@ import Typography from '@mui/material/Typography';
 
 
 
-// import './ServicesCard.css'
+
 import { Button, Grid, Rating, Stack } from '@mui/material';
 import { Link } from 'react-router-dom';
 
 
 const TestimonialCard = ({ article }) => {
-    const { _id, name, about, picture, price, rating } = article
+    const { name,  review,  photo,  rating } = article
     // console.log(props.article);
     return (
         <>
@@ -45,22 +45,17 @@ const TestimonialCard = ({ article }) => {
                         image={picture}
                         alt="Paella dish"
                     /> */}
-                       <Avatar alt="Remy Sharp" src={picture} style={{marginLeft:'85px', width:'50%', height:'150px'}}/>
+                       <Avatar alt="Remy Sharp" src={photo} style={{marginLeft:'125px', width:'30%', height:'100px'}}/>
                     <CardContent>
                         <Typography
                             variant="body2" color="text.secondary" style={{ color: 'black', paddingBottom: '5px' }}>
-                            Brand Name :  {name}
+                       Name :  {name}
                         </Typography>
                         <Typography
                             variant="body2" color="text.secondary">
-                            Description : {about}
+                            Review : {review}
                         </Typography>
-                        <Typography
-                            variant="body2" color="text.secondary"
-                            style={{ color: 'black', paddingTop: '5px' }}
-                        >
-                            Price : {price}
-                        </Typography>
+                      
                         <Stack spacing={1} style={{ marginLeft: '95px' }}>
                             <Rating name="half-rating" defaultValue={rating} precision={0.5} readOnly />
 
@@ -68,11 +63,11 @@ const TestimonialCard = ({ article }) => {
                     </CardContent>
 
                     <Stack spacing={2}>
-                        <Link
+                        {/* <Link
                             style={{ textDecoration: 'none', display: "block", paddingBottom: "40px" }}
                             to={`/details/${_id}`}>
                             <Button variant="contained">Order Now</Button>
-                        </Link>
+                        </Link> */}
                     </Stack>
                 </Card>
             </Grid>

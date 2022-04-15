@@ -1,22 +1,27 @@
-.buy-now form {
+.booking form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+
+
+}
+
+.booking {
+
     margin-top: 80px;
     margin-bottom: 80px;
-   
-    /* box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
-    background-color: #c5cae9; */
+    width: 100%;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+    /* background-color: #c5cae9; */
+
 
 }
 
-.buy-now form input,
+.booking form input,
 textarea {
-    width: 40%;
+    width: 60%;
     height: 50px;
     margin-bottom: 10px;
-}
-.buy-now textarea{
-    width:40%
 }

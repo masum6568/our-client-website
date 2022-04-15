@@ -53,6 +53,7 @@ const ExtraPart = () => {
 
 
     return (
+  
         <div className=" fullPart">
             <Container   >
 
@@ -81,6 +82,7 @@ const ExtraPart = () => {
 
             </Typography>
         </div>
+   
     );
 };
 
