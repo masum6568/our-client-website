@@ -16,7 +16,7 @@ const SingleService = () => {
         const hello = async () => {
             await
             
-            fetch(`http://localhost:7000/products/${_id}`)
+            fetch(`https://nameless-thicket-17201.herokuapp.com/products/${_id}`)
                 .then(res => res.json())
                 .then(data => setService(data))
         }

@@ -10,7 +10,7 @@ const LoadData = () => {
 
     const [cycle, setCycle] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:7000/addProducts')
+        fetch('https://nameless-thicket-17201.herokuapp.com/addProducts')
             .then(res => res.json())
             .then(data => setCycle(data))
     }, [])

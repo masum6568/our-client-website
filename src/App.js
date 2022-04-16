@@ -46,8 +46,8 @@ function App() {
 
 <Route exact path="/dashboard" element={<PrivateRoute><DashBoardHome /></PrivateRoute>}></Route>
 <Route path={"/dashboard/makeAdmin"} element={<AdminRoute><MakeAdmin /></AdminRoute>}></Route>
-<Route path={"/dashboard/addService"} element={<PrivateRoute><AddProduct /></PrivateRoute>}></Route>
-<Route path={"/dashboard/manageOrder"} element={<PrivateRoute><ManageOrder /></PrivateRoute>}></Route>
+<Route path={"/dashboard/addService"} element={<AdminRoute><AddProduct /></AdminRoute>}></Route>
+<Route path={"/dashboard/manageOrder"} element={<AdminRoute><ManageOrder /></AdminRoute>}></Route>
 {/* <Route path={"/dashboard/addServices"} element={<PrivateRoute><AddServices /></PrivateRoute>}></Route> */}
 {/* <Route path={"/dashboard/manageOrder"} element={<PrivateRoute><ManageOrder /></PrivateRoute>}> </Route> */}
 {/* <Route path={"/dashboard/makeAdmin"} element={<PrivateRoute><MakeAdmin /></PrivateRoute>}></Route> */}

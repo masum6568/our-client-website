@@ -10,17 +10,20 @@ import Paper from '@mui/material/Paper';
 import DeleteIcon from '@mui/icons-material/Delete';
 import { Grid, IconButton } from '@mui/material';
 import UserForm from '../Services/Testimonial/UserForm';
+import UseAuth from '../../Hooks/UseAuth';
 
 const DashBoardHome = () => {
+    const {user} = UseAuth();
   const [products, setProducts] = useState([]);
   useEffect(() => {
-      fetch('http://localhost:7000/order')
+      const url = `https://nameless-thicket-17201.herokuapp.com/order?email=${user.email}`
+      fetch(url)
           .then(res => res.json())
           .then(data => setProducts(data))
   })
 
   const handleDelete = id  => {
-    const url = `http://localhost:7000/order/${id}`;
+    const url = `https://nameless-thicket-17201.herokuapp.com/order/${id}`;
     fetch(url, {
         method: 'DELETE'
     })

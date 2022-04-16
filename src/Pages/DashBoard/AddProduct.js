@@ -10,7 +10,7 @@ const AddProduct = () => {
     const onSubmit = data => {
         console.log(data);
 
-        axios.post("http://localhost:7000/addProducts", data)
+        axios.post("https://nameless-thicket-17201.herokuapp.com/addProducts", data)
             .then(res => {
 
                 if (res.data.insertedId) {

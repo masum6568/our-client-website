@@ -16,14 +16,7 @@ const BookingService = ({ service }) => {
     const { user } = UseAuth()
     const { _id } = useParams()
     const navigate = useNavigate();
-    // useEffect(() => {
-    //     const hello = async () => {
-    //         await fetch(`http://localhost:7000/products/${id}`)
-    //             .then(res => res.json())
-    //             .then(data => setPackage(data))
-    //     }
-    //     hello()
-    // }, [id])
+   
 
     const initialInfo = { Name: user.displayName, email: user.email, phone: '' }
     const [bookingInformation, setBookingInfo] = useState(initialInfo);
@@ -39,7 +32,7 @@ const BookingService = ({ service }) => {
     const handleBookingSubmit = (e) => {
         const bookingInfo = { ...bookingInformation, packageName: service.name, packageImg: service.picture, price: service.price, status: "pending" }
         console.log(bookingInfo);
-        fetch('http://localhost:7000/order', {
+        fetch('https://nameless-thicket-17201.herokuapp.com/order', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

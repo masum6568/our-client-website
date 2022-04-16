@@ -18,7 +18,7 @@ const UserForm = () => {
     const reviews = { review: reviewText, photo: photo, name: name, rating: value }
 
     const handleSubmit = e => {
-        fetch('http://localhost:7000/userReview', {
+        fetch('https://nameless-thicket-17201.herokuapp.com/userReview', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

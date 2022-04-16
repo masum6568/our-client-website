@@ -18,7 +18,7 @@ const Services = () => {
 
     const [car, setCar] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:7000/userReview')
+        fetch('https://nameless-thicket-17201.herokuapp.com/userReview')
             .then(res => res.json())
             .then(data => setCar(data))
     }, [])
