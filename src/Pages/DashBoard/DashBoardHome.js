@@ -11,6 +11,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import { Grid, IconButton } from '@mui/material';
 import UserForm from '../Services/Testimonial/UserForm';
 import UseAuth from '../../Hooks/UseAuth';
+import { Link } from 'react-router-dom';
 
 const DashBoardHome = () => {
     const {user} = UseAuth();
@@ -58,9 +59,10 @@ const DashBoardHome = () => {
                 <Table sx={{}} aria-label="car table">
                     <TableHead>
                         <TableRow>
-                            <TableCell>Order Email</TableCell>
+                            <TableCell >Order Email</TableCell>
                             <TableCell align="right">Car Name</TableCell>
                             <TableCell align="right">Customer Name</TableCell>
+                            <TableCell align="right">Action</TableCell>
 
                         </TableRow>
                     </TableHead>
@@ -76,9 +78,12 @@ const DashBoardHome = () => {
                                 </TableCell>
                                 <TableCell align="right">{row.packageName}</TableCell>
                                 <TableCell align="right">{row.Name}</TableCell>
-                                <TableCell align="right">{row.serviceName}</TableCell>
-                                <TableCell align="right"> <IconButton aria-label="delete" onClick={() => handleDelete(row._id)}>
-                                    <DeleteIcon />
+                                {/* <TableCell align="right">{row.serviceName}</TableCell> */}
+                                <TableCell align="right">{row.payment ? 'Paid' :
+                                <Link to={`/dashboard/payment/${row._id}`}><button>pay</button></Link>
+                                }</TableCell>
+                                <TableCell align="right" > <IconButton aria-label="delete" onClick={() => handleDelete(row._id)} >
+                             <DeleteIcon />
                                 </IconButton></TableCell>
 
                             </TableRow>
@@ -86,11 +91,6 @@ const DashBoardHome = () => {
                     </TableBody>
                 </Table>
             </TableContainer>
- 
-
-
-
-
   </Grid>
 </Grid>
 </div>

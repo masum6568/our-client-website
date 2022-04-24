@@ -5,8 +5,11 @@ import AuthProvider from './Context/AuthProvider/AuthProvider';
 import AddProduct from './Pages/DashBoard/AddProduct';
 import DashBoard from './Pages/DashBoard/DashBoard';
 import DashBoardHome from './Pages/DashBoard/DashBoardHome';
+import AddModaretor from './Pages/DashBoard/MakeAdmin/AddModaretor';
 import MakeAdmin from './Pages/DashBoard/MakeAdmin/MakeAdmin';
 import ManageOrder from './Pages/DashBoard/ManageOrder';
+import Payment from './Pages/DashBoard/Payment/Payment';
+
 import About from './Pages/Home/Home/About';
 import Home from './Pages/Home/Home/Home';
 import NotFound from './Pages/Home/Home/NotFound';
@@ -45,8 +48,15 @@ function App() {
             <Route path="/dashboard" element={<PrivateRoute><DashBoard /></PrivateRoute>}>
 
 <Route exact path="/dashboard" element={<PrivateRoute><DashBoardHome /></PrivateRoute>}></Route>
+<Route path="/dashboard/payment/:productId" element={<PrivateRoute>
+<Payment></Payment>
+</PrivateRoute>}></Route>
+
 <Route path={"/dashboard/makeAdmin"} element={<AdminRoute><MakeAdmin /></AdminRoute>}></Route>
+<Route path={"/dashboard/addmodaretor"} element={<AdminRoute><AddModaretor /></AdminRoute>}></Route>
+
 <Route path={"/dashboard/addService"} element={<AdminRoute><AddProduct /></AdminRoute>}></Route>
+
 <Route path={"/dashboard/manageOrder"} element={<AdminRoute><ManageOrder /></AdminRoute>}></Route>
 
 

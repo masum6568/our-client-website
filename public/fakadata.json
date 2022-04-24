@@ -1,7 +1,7 @@
 [
     {
       "_id": "6253e9f722fa2303106db0f0",
-      "price": "$3,352.48",
+      "price": "335248",
       "picture": "https://cars.usnews.com/static/images/Auto/izmo/Colors/mercedes_18g550awdsu2a_black.jpg",
       "picture1": "https://images.hgmsites.net/med/2018-mercedes-amg-g65-final-edition_100628892_m.jpg",
       "picture2": "https://i.gaw.to/vehicles/photos/08/56/085675_2018_mercedesbenz_Classe_G.jpg?1024x640",
@@ -14,7 +14,7 @@
     {
       "_id": "6253e9f7e6ce932be9db1f03",
     
-      "price": "$2,662.91",
+      "price": "266291",
       "picture": "https://www.seekpng.com/png/detail/372-3721175_2012-audi-a4-undercarriage-png-audi-a6-2012.png",
       "picture1": "https://www.pngitem.com/pimgs/m/402-4029258_transparent-audi-a4-png-mitsubishi-outlander-phev-4h.png",
       "picture2": "https://png.pngitem.com/pimgs/s/404-4041715_2018-bmw-3-vs-audi-a4-hd-png.png",
@@ -27,7 +27,7 @@
     {
       "_id": "6253e9f727273b22a3f6aa33",
   
-      "price": "$2,265.43",
+      "price": "226543",
       "picture": "https://www.pngitem.com/pimgs/m/2-24218_transparent-lamborghini-car-png-png-download.png",
       "picture1": "https://images6.alphacoders.com/101/1015975.jpg",
       "picture2": "https://c4.wallpaperflare.com/wallpaper/550/222/532/lamborghini-white-background-gallardo-lamborghini-wallpaper-preview.jpg",
@@ -40,7 +40,7 @@
     {
       "_id": "6253e9f731d466a92e68374c",
     
-      "price": "$3,045.72",
+      "price": "304572",
       "picture": "https://www.conceptcarz.com/images/Audi/Audi-Q7-Black-Edition-Crossover-01.jpg",
       "picture1": "https://stat.overdrive.in/wp-content/uploads/2019/09/Q7-black-edition%5E1000x667%5E.jpg",
       "picture2": "https://1.bp.blogspot.com/-DXU45lSOPmo/XXkYWXbjXtI/AAAAAAAAB54/a47zDqlsLFwBB1vvV1ZXczq7q9Cfp1g4wCLcBGAsYHQ/s1600/Audi%2BQ7%2BBlack%2Bedition%2B2019%2Brear%2Bview.JPG",
@@ -53,7 +53,7 @@
     {
       "_id": "6253e9f738729b0a540e902e",
     
-      "price": "$3,332.27",
+      "price": "333227",
       "picture": "https://www.gifswallpapers.com/wp-content/uploads/2019/07/Mercedes-Benz-Sport-Version.jpg",
       "picture1": "https://cdn.wallpapersafari.com/11/3/bXZ1f0.jpg",
       "picture2": "https://drawtodrive.com/uploads/1720/ronit-sinha-2014-mercedes-benz-sls-amg-black-series-roni.jpeg",
@@ -66,7 +66,7 @@
     {
       "_id": "6253e9f7d38fc30aef6a96cc",
 
-      "price": "$2,459.28",
+      "price": "245928",
       "picture": "https://www.marshallgoldmanoh.com/imagetag/581/2/l/Used-2014-Mercedes-Benz-SLS-AMG-Black-Series-1596467612.jpg",
       "picture1": "https://tdrresearch.azureedge.net/photos/chrome/Expanded/White/2013MEB018a/2013MEB018a01.jpg?w=400",
       "picture2": "https://cdn.jdpower.com/ChromeImageGallery/Expanded/White/640/2014MEB018e_640/2014MEB018e_640_03.jpg",
@@ -78,7 +78,7 @@
     },
     {
       "_id": "6253e9f71bab70c193d7ea4d",
-      "price": "$2,731.37",
+      "price": "273137",
       "picture": "https://cdn.wallpapersafari.com/85/27/BUVnM0.jpg",
       "picture1": "https://cdn.wallpapersafari.com/22/10/uxHptC.jpg",
       "picture2": "https://www.rarecarsales.com.au/wp-content/uploads/2018/12/Mercedes-C63-Black-Edition-front-1024x661.png",
@@ -92,7 +92,7 @@
     
       {
         "_id": "6255bb186b9d2b0adeec7a41",
-        "price": "$1,913.75",
+        "price": "191375",
         "picture": "https://i.pinimg.com/originals/2a/1c/2a/2a1c2aaa7c1184c5ff167894ff3d1e45.jpg",
         "picture1": "https://www.hdcarwallpapers.com/walls/mercedes_amg_gt_s_roadster_2019_5k-HD.jpg",
         "picture2": "https://c4.wallpaperflare.com/wallpaper/29/1013/318/black-car-car-mercedes-benz-mercedes-wallpaper-preview.jpg",
@@ -104,7 +104,7 @@
       },
       {
         "_id": "6255bb18c44c064384b1aafa",
-        "price": "$2,001.59",
+        "price": "200159",
         "picture": "https://www.cnet.com/a/img/resize/9721da4908df6e65ee8ad17d4f9be1b0ead109c7/2021/10/25/7db55feb-5851-4e56-89bb-7367856b35a6/2023-land-rover-range-rover-sv-ogi.jpg?auto=webp",
         "picture1": "https://www.motortrend.com/uploads/2022/02/2022-Land-Rover-Range-Rover-Sport_HSE_SILV_02.jpg?fit=around%7C875:492.1875",
         "picture2": "https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg_hero_large/v1/editorial/2022-Range-Rover-Sport-SUV-white-1001x565-1.jpg",
@@ -116,7 +116,7 @@
       },
       {
         "_id": "6255bb18f1445c2583610bfb",
-        "price": "$1,662.24",
+        "price": "166224",
         "picture": "https://i.ytimg.com/vi/qbRqySW39TI/maxresdefault.jpg",
         "picture1": "https://autonews-mag.com/images/rangaruaSCVsa557.jpg",
         "picture2": "https://i.ytimg.com/vi/rfhvLSZ88U0/maxresdefault.jpg",
@@ -128,7 +128,7 @@
       },
       {
         "_id": "6255bb18a4f85e548f89bab3",
-        "price": "$2,294.40",
+        "price": "229440",
         "picture": "https://www.forbes.com/wheels/wp-content/uploads/2021/11/2022-BMW-7-Series-seo.jpg",
         "picture1": "https://wallpaperaccess.com/full/2451508.jpg",
         "picture2": "https://w0.peakpx.com/wallpaper/749/136/HD-wallpaper-2020-bmw-7-series-750i-m-sport-uk-spec-side-car.jpg",
@@ -140,7 +140,7 @@
       },
       {
         "_id": "6255bb189912d9789ed76f21",
-        "price": "$3,468.18",
+        "price": "346818",
         "picture": "https://cdn.motor1.com/images/mgl/Y10jJ/s1/manhart-mh2-450-2022-bmw-2-series-coupe.jpg",
         "picture1": "https://s1.cdn.autoevolution.com/images/news/gallery/2022-bmw-m240i-coupe-rolls-up-its-sleeves-opens-the-m2-hunting-season_3.jpg",
         "picture2": "https://preview.redd.it/hcuravzdmyq71.png?width=640&crop=smart&auto=webp&s=4462a1e1c1217b38f2f52edf652d0ab10f214d47",
@@ -152,7 +152,7 @@
       },
       {
         "_id": "6255bb18b8fb84be261a8299",
-        "price": "$1,120.87",
+        "price": "112087",
         "picture": "https://cdn.carbuzz.com/gallery-images/840x560/942000/100/942143.jpg",
         "picture1": "https://cdn.carbuzz.com/gallery-images/840x560/942000/100/942135.jpg",
         "picture2": "https://thumbor.forbes.com/thumbor/fit-in/960x/https://www.forbes.com/wheels/wp-content/uploads/2021/11/2022_BMW_2Series_16.jpg",
@@ -164,7 +164,7 @@
       },
       {
         "_id": "6255bb18761d5653df6a2d2b",
-        "price": "$2,716.50",
+        "price": "271650",
         "picture": "https://ev-database.uk/img/auto/Tesla_Model_S_2016/Tesla_Model_S_2016-01@2x.jpg",
         "picture1": "https://hips.hearstapps.com/autoweek/assets/s3fs-public/tesla-model-s-p100d-2.jpg",
         "picture2": "https://carwow-uk-wp-1.imgix.net/Front-Shot-47.jpg?auto=format&cs=tinysrgb&fit=clip&ixlib=rb-1.1.0&q=60&w=750",
@@ -176,7 +176,7 @@
       },
       {
         "_id": "6255bb18b304640871aec08e",
-        "price": "$2,368.33",
+        "price": "236833",
         "picture": "https://images.dealer.com/autodata/us/color/2022/USD20TOC021F0/2VV.jpg",
         "picture1": "https://images.dealer.com/ddc/vehicles/2022/Toyota/Camry/Sedan/color/Blueprint-8X8-25,28,42-640-en_US.jpg",
         "picture2": "https://content-images.carmax.com/qeontfmijmzv/DA2BD94179DBBEA913905EBCF51D45D8E8F33B42/5288fc1a7e6e58a301f8471d7b01171a/2020-toyota-camry-hybrid-se_review_hero.jpg",
@@ -188,7 +188,7 @@
       },
       {
         "_id": "6255bb18a5ab031e52b63301",
-        "price": "$1,593.01",
+        "price": "159301",
         "picture": "https://glassondemand.co.za/wp-content/uploads/2021/03/Toyota-Rav4.jpg",
         "picture1": "https://static.turbosquid.com/Preview/2019/03/10__07_09_27/Toyota_RAV40000.jpg56FF03F5-5F1E-4D78-B37C-17955DEDC7C4Default.jpg",
         "picture2": "https://www.renderhub.com/3dstarving/toyota-rav4-hybrid-2019/toyota-rav4-hybrid-2019-01.jpg",
@@ -200,7 +200,7 @@
       },
       {
         "_id": "6255bb18ebd91dc4ff57373b",
-        "price": "$2,862.22",
+        "price": "286222",
         "picture": "https://cdn.motor1.com/images/mgl/KjYRR/s3/alieno-arcanum-hypercar.webp",
         "picture1": "https://cdn.motor1.com/images/mgl/7blbP/s4/alieno-arcanum-hypercar.webp",
         "picture2": "https://wallpapercave.com/wp/wp1994083.jpg",
@@ -212,7 +212,7 @@
       },
       {
         "_id": "6255bb1805dd80cd7ce72b59",
-        "price": "$2,280.94",
+        "price": "228094",
         "picture": "https://www.racedepartment.com/attachments/__custom_showroom_1571857880-jpg.330912/",
         "picture1": "https://www.racedepartment.com/attachments/__custom_showroom_1571857786-jpg.330913/",
         "picture2": "https://cdn.carbuzz.com/gallery-images/840x560/449000/200/449274.jpg",
@@ -224,7 +224,7 @@
       },
       {
         "_id": "6255bb187012c304e5a0dc43",
-        "price": "$2,580.10",
+        "price": "258010",
         "picture": "https://www.motoroids.com/wp-content/uploads/2014/07/octavia-vrs.jpg",
         "picture1": "https://www.cartoq.com/wp-content/uploads/2020/02/skoda-octavia-vrs-245-featured.jpg",
         "picture2": "https://www.torquexpert.com/wp-content/uploads/2021/03/20210319030411_Skoda_Octavia_001.jpg",
@@ -236,7 +236,7 @@
       },
       {
         "_id": "6255bb18fa5cc36bc0e48c92",
-        "price": "$3,141.08",
+        "price": "314108",
         "picture": "https://www.topgear.com/sites/default/files/images/cars-road-test/carousel/2017/06/6766e96b917e216f2faa8d7d4b09e3d1/skoda_rs_245_2025.jpg",
         "picture1": "https://gaadiwaadi.com/wp-content/uploads/2020/01/skoda-vrs245-7-1187x720.jpg",
         "picture2": "https://www.carscoops.com/wp-content/uploads/2020/07/2021-Skoda-Octavia-RS-0.jpg",
@@ -248,7 +248,7 @@
       },
       {
         "_id": "6255bb18f20c91ab493df051",
-        "price": "$2,390.06",
+        "price": "239006",
         "picture": "https://www.seekpng.com/png/detail/62-620472_bugatti-vision-gran-turismo-car-png-image-bugatti.png",
         "picture1": "https://www.seekpng.com/png/detail/62-620979_new-bugatti-veyron-2020.png",
         "picture2": "https://static.wikia.nocookie.net/gran-turismo/images/5/57/Bugatti_Vision_Gran_Turismo.jpg/revision/latest?cb=20181204100528",
@@ -260,7 +260,7 @@
       },
       {
         "_id": "6255bb18f0062adaf0a10928",
-        "price": "$2,689.24",
+        "price": "268924",
         "picture": "https://www.nicepng.com/png/detail/61-617639_best-free-jeep-in-png-jeep-grand-cherokee.png",
         "picture1": "https://www.nicepng.com/png/detail/249-2499931_scorpio-a-c-scorpio-car-png-hd.png",
         "picture2": "https://i.dlpng.com/static/png/1185916-mahindra-scorpio-scorpio-png-800_600_preview.png",
@@ -272,7 +272,7 @@
       },
       {
         "_id": "6255bb18710f64e3d048acaf",
-        "price": "$2,333.80",
+        "price": "233380",
         "picture": "https://c4.wallpaperflare.com/wallpaper/930/144/903/jeep-wrangler-rubicon-rocks-star-yellow-pickup-yellow-jeep-rubicon-wallpaper-preview.jpg",
         "picture1": "https://c4.wallpaperflare.com/wallpaper/217/577/293/jeep-wrangler-rubicon-rocks-star-yellow-car-rear-view-wallpaper-preview.jpg",
         "picture2": "https://cdn.jdpower.com/ChromeImageGallery/ColorMatched_02/White/640/cc_2018JES210003_02_640/cc_2018JES210003_02_640_PYV.jpg",

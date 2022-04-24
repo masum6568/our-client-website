@@ -17,7 +17,7 @@ import UseAuth from '../../Hooks/UseAuth';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 
 
-
+import './Navigation.css'
 
 const pages = ['Home', 'Services', 'About'];
 
@@ -64,7 +64,7 @@ const Navigation = () => {
         logout()
     }
     return (
-        <Box sx={{ flexGrow: 1 }}>
+        <Box sx={{ flexGrow: 1 }} className="section">
             <AppBar position="static" style={{ backgroundColor: "#9575cd" }} >
                 <Container maxWidth="xl" >
                     <Toolbar disableGutters >

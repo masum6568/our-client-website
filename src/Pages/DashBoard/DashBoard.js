@@ -55,6 +55,9 @@ function DashBoard(props) {
             <br />
                 <Link to={`/dashboard/makeAdmin`} style={{textDecoration:'none' , color:'black'}}><AdminPanelSettingsIcon/><Button color="inherit">Make Admin</Button></Link>
                 <Divider />
+            <br />
+                <Link to={`/dashboard/addmodaretor`} style={{textDecoration:'none' , color:'black'}}><AdminPanelSettingsIcon/><Button color="inherit">Add Modaretor</Button></Link>
+                <Divider />
                
                   </Box>}
                   

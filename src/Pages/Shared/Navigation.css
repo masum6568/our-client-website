@@ -31,12 +31,14 @@
     color: #34495E;
 }
 
-section {
-    width: 100%;
+.section {
+    /* width: 100%;
     padding: 50px;
     background: #fff;
     border-bottom: 1px solid #ccc;
     height: 1024px;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 60px; */
+    position: sticky;
+   top:0px;
 }

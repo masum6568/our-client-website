@@ -12,6 +12,7 @@ import Testimonial from '../../Services/Testimonial/Testimonial';
 import Banner from '../../Shared/Banner';
 import Footer from '../../Shared/Footer';
 import Homes from './Homes';
+import Modaretors from './Modaretors/Modaretors';
 
 
 
@@ -32,6 +33,7 @@ const Home = () => {
             <SecondExtraPart></SecondExtraPart>
             <LoadData></LoadData>
             <ExtraPart></ExtraPart>
+            <Modaretors></Modaretors>
             <Testimonial></Testimonial>
             <Footer></Footer>
 
